@@ -8,8 +8,8 @@ thumbnail:
   src: /static/media/uploads/witc_rio_sm.jpg
   alt: Rio
 gallery:
-  - src: /static/media/uploads/alex2-min.jpg
-    alt: my face
+  - src: /static/media/uploads/20200324-depth-2.png
+    alt: map
 media: []
 ---
 Hello!
