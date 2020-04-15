@@ -22,9 +22,15 @@ layout: layouts/base.njk
                 </div>
             {%- endfor -%}
         </div>
-            {%- for video in videos -%}
+            {%- for item in media -%}
                 <div class="frame">
-                    <video src="{{ video.src }}" controls></video>
+                    {% if item.type == "image" %}
+                        <img src="{{ item.src }}" alt="{{ item.alt }}">
+                    {% elif item.type == "video" %}
+                        <video src="{{ item.src }}" controls></video>
+                    {% else %}
+                        <iframe src="{{ item.src }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {% endif %}
                 </div>
             {%- endfor -%}
     </div>

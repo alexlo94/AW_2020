@@ -13,9 +13,10 @@ gallery:
     - {src: "https://picsum.photos/400", alt: "Test thumbnail alt text" }
     - {src: "https://picsum.photos/400", alt: "Test thumbnail alt text" }
     - {src: "https://picsum.photos/400", alt: "Test thumbnail alt text" }
-videos:
-    - {src: "/_includes/assets/media/example_video_01.mp4", alt: ""}
-    - {src: "/_includes/assets/media/example_video_02.mp4", alt: ""}
+media:
+    - {src: "https://picsum.photos/400", type: "image", alt: "This is a lorem picsum image"}
+    - {src: "/_includes/assets/media/example_video_03.mp4", type: "video", alt: "Video alt goes unused"}
+    - {src: "https://www.youtube.com/embed/f0l7vmoI3KM", type: "iframe", alt: "Iframe alt goes unused"}
 
 tags:
     - projects
