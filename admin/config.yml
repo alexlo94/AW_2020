@@ -24,3 +24,10 @@ collections:
         fields:
           - {label: "Source", name: "src", widget: "image"}
           - {label: "Alt Text", name: "alt", widget: "string"}
+      - label: "Gallery"
+        name: gallery
+        widget: "list"
+        fields:
+          - {label: "Source", name: "src", widget: "image"}
+          - {label: "Alt Text", name: "alt", widget: "string"}
+
