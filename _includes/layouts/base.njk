@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Open+Sans:wght@400;700&family=PT+Serif:wght@400;700&display=swap" rel="stylesheet">
+    {% set css %}
+        {% include "assets/css/main.css" %}
+    {% endset %}
+    <style>
+        {{ css | cssmin | safe }}
+    </style>
+    <script defer type="module" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule="" src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons/ionicons.js"></script>
+    <title>{{ title or renderData.title or metadata.title }}</title>
+</head>
+<body>
+    {% include "components/navbar.njk" %}
+    <div class="content-wrapper">
+        {{ layoutContent | safe }}
+    </div>
+    {% include "components/mobile-menu.njk" %}
+
+    {% set js %}
+        {% include "assets/js/main.js" %}
+    {% endset %}
+    <script>
+        {{ js | jsmin | safe }}
+    </script>
+</body>
+</html>

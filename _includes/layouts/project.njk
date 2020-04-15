@@ -1,0 +1,81 @@
+---
+layout: layouts/base.njk
+---
+<section class="page-section">
+    <div class="section-wrapper stack s3">
+        <main class="frame">
+            <img src="{{ thumbnail.src }}" alt="{{ thumbnail.alt }}">
+        </main>
+        <div class="stack">
+            <h1>{{ title }}</h1>
+            <h3>{{ subtitle }}</h3>
+        </div>
+    </div>
+</section>
+
+<section class="page-section background-color:orange">
+    <div class="section-wrapper stack s3">
+        <div class="grid">
+            {%- for piece in gallery -%}
+                <div class="frame">
+                    <img src="{{ piece.src }}" alt="{{ piece.alt }}">
+                </div>
+            {%- endfor -%}
+        </div>
+            {%- for video in videos -%}
+                <div class="frame">
+                    <video src="{{ video.src }}" controls></video>
+                </div>
+            {%- endfor -%}
+    </div>
+</section>
+
+<section class="page-section">
+    <div class="section-wrapper stack s1">
+        {{layoutContent | safe }}
+    </div>
+</section>
+
+{% set currentItemIndex = 0 %}
+
+{% for item in collections.projects %}
+    {% if item.url == page.url %}
+        {% set currentItemIndex = loop.index0 %}
+    {% endif %}
+{% endfor %}
+
+{% set prevItemIndex = currentItemIndex - 1 %}
+{% set nextItemIndex = currentItemIndex + 1 %}
+
+<section class="page-section background-color:blue">
+    <div class="section-wrapper stack">
+        <h3>Other Projects</h3>
+        <div class="switcher">
+            <div class="wrapper">
+                {% if prevItemIndex >= 0 %}
+                    {% set prev = collections.projects[prevItemIndex] %}
+                    <a href="{{ prev.url }}">
+                        <div class="stack">
+                            <div class="frame"><img src="{{ prev.data.thumbnail.src }}" alt="{{ prev.data.thumbnail.alt }}"></div>
+                            <h5>👈 Previous Project</h5>
+                        </div>
+                    </a>
+                {% else %}
+                    <div class="frame"></div>
+                {% endif %}
+                {% if nextItemIndex < collections.projects.length %}
+                    {% set next = collections.projects[nextItemIndex] %}
+                    <a href="{{ next.url }}">
+                        <div class="stack">
+                            <div class="frame"><img src="{{ next.data.thumbnail.src }}" alt="{{ next.data.thumbnail.alt }}"></div>
+                        <h5 class="text-align:right"> Next Project 👉</h5>
+                        </div>
+                    </a>
+                {% else %}
+                    <div class="frame"></div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+

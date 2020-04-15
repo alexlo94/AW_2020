@@ -1,0 +1,14 @@
+.greeting {
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: 12px;
+        right: -24px;
+        background-color: $color-yellow;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+    }
+}

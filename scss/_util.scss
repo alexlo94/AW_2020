@@ -1,0 +1,44 @@
+  
+.justify-content\:space-between{
+    justify-content: space-between;
+}
+
+.align-items\:center {
+    align-items: center;
+}
+
+.align-items\:flex-end {
+    align-items: flex-end;
+}
+
+.padding\:s1 {
+    padding: $s1;
+}
+
+.text-align\:right {
+    text-align: right;
+}
+
+.max-width\:measure {
+    max-width: $measure;
+}
+
+.font-weight\:normal {
+    font-weight: normal;
+}
+
+.font-weight\:bold {
+    font-weight: bold;
+}
+
+.background-color\:orange {
+    background-color: $color-orange;
+}
+
+.background-color\:blue {
+    background-color: $color-blue;
+}
+
+.hidden {
+    display: none;
+}

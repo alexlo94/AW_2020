@@ -1,0 +1,20 @@
+<header class="cluster navbar">
+    <div class="wrapper justify-content:space-between align-items:center">
+        <div class="logo">
+            <img src="/_includes/assets/img/zic 1.svg" alt="Stylized logo saying ZIC">
+        </div>
+        <nav class="cluster s2">
+        <div class="wrapper">
+            {%- for sitePage in collections.pages -%}
+            <a href="{{ sitePage.url }}"
+            {% if page.url == sitePage.url %} class="active navlink" {% else %} class="navlink"{% endif %}>
+            {{ sitePage.data.title }}
+            </a>
+            {%- endfor -%}
+        </div>
+        </nav>
+        <a href="javascript:void(0);" id="hamburger-menu">
+            <ion-icon name="menu" size="large"></ion-icon>
+        </a>
+    </div>
+</header>

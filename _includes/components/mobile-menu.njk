@@ -1,0 +1,10 @@
+<div id="mobile-menu">
+    <nav class="stack s3">
+        {%- for sitePage in collections.pages -%}
+            <a href="{{ sitePage.url }}"
+            {% if page.url == sitePage.url %} class="active navlink" {% else %} class="navlink"{% endif %}>
+            {{ sitePage.data.title }}
+            </a>
+        {%- endfor -%}
+    </nav>
+</div>

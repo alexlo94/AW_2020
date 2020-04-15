@@ -1,0 +1,20 @@
+{
+    "title": "Angela Wang | Portfolio",
+    "social": [
+        {
+            "href": "#",
+            "iconName": "logo-instagram",
+            "sidebar": true
+        },
+        {
+            "href": "#",
+            "iconName": "logo-linkedin",
+            "sidebar": true
+        },
+        {
+            "href": "#",
+            "iconName": "mail",
+            "sidebar": true 
+        }
+    ]
+}

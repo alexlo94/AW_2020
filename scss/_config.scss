@@ -1,0 +1,134 @@
+// Color and font variables
+$font-anim: 'Allerta', sans-serif;
+$font-heading: 'Open Sans', sans-serif;
+$font-body: 'Open Sans', sans-serif;
+$font-resume: 'PT Serif', serif;
+$color-blue: #B0D9CD;
+$color-black: #151515;
+$color-pink: #F0A7CA;
+$color-orange: #F38D77;
+$color-yellow: #E3E418;
+$color-gray: #C4C4C4;
+
+
+// Ratio and modular scale
+$ratio: 1.4;
+$s0: 1rem;
+$s1: $s0 * $ratio;
+$s2: $s1 * $ratio;
+$s3: $s2 * $ratio;
+$s4: $s3 * $ratio;
+$s5: $s4 * $ratio;
+$s-1: $s0 / $ratio;
+$s-2: $s-1 / $ratio;
+$s-3: $s-2 / $ratio;
+$s-4: $s-3 / $ratio;
+$s-5: $s-4 / $ratio;
+
+// Measure and line height
+$measure: 60ch;
+$line-height: $ratio;
+$line-height-small: 0.8 * $ratio;
+
+// Set values in root
+:root {
+    font-size: 1em;
+    font-family: $font-body;
+    background-color: #fff;
+    color: $color-black;
+    scroll-behavior: smooth;
+}
+
+// Font antialiasing
+body {
+    -webkit-font-smoothing: antialiased;
+
+    &.open {
+        overflow: hidden;
+    }
+}
+
+// Global Styles
+h1,
+.h1 {
+    font-size: $s4;
+}
+
+h2,
+.h2 {
+    font-size: $s3;
+}
+
+h3,
+.h3 {
+    font-size: $s2;
+}
+
+h4,
+.h4 {
+    font-size: $s1;
+}
+
+h5,
+.h5 {
+    font-size: $s-1;
+    font-weight: normal;
+}
+
+h6,
+.h6 {
+    font-size: $s-2;
+    font-weight: normal;
+}
+
+p, .p {
+    font-size: $s1;
+}
+
+@media screen and (max-width: 48em) {
+
+    h1,
+    .h1 {
+        font-size: $s3;
+    }
+
+    h2,
+    .h2 {
+        font-size: $s2;
+    }
+
+    h3,
+    .h3 {
+        font-size: $s1;
+    }
+
+    h4,
+    .h4 {
+        font-size: $s0;
+    }
+
+    h5,
+    .h5 {
+        font-size: $s-1;
+        font-weight: normal;
+    }
+
+    h6,
+    .h6 {
+        font-size: $s-2;
+        font-weight: normal;
+    }
+
+    p, .p {
+        font-size: $s0 * 1.1;
+    }
+}
+
+img,
+.img {
+    max-width: 100%;
+}
+
+a.inline {
+    color: $color-orange;
+}

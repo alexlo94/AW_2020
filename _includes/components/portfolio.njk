@@ -1,0 +1,17 @@
+<section id="portfolio" class="page-section background-color:orange">
+    <div class="section-wrapper">
+        <main class="dense-grid">
+            {%- for project in collections.projects -%}
+                    <a href="{{ project.url }}">
+                        <figure>
+                            <img src="{{ project.data.thumbnail.src }}" alt="{{ project.data.thumbnail.alt }}">
+                        </figure>
+                        <div class="info stack">
+                            <h4>{{ project.data.title }}</h4>
+                            <p>{{ project.data.subtitle }}</p>
+                        </div>
+                    </a>
+            {%- endfor -%}
+        </main>
+    </div>
+</section>

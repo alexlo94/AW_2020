@@ -1,0 +1,43 @@
+#resume-contents {
+    max-width: 1000px;
+    padding: $s0;
+    font-family: $font-resume;
+    width: 100%;
+    background-color: #f5f5f5;
+
+    #left-column {
+        text-align: right;
+        align-items: flex-end;
+
+        * {
+            max-width: $measure;
+        }
+    }
+
+    #right-column {
+        text-align: left;
+        align-items: flex-start;
+        
+        * {
+            max-width: $measure;
+        }
+    }
+
+    p {
+        font-size: $s-1;
+    }
+}
+
+@media screen and (max-width: 50em) {
+    #resume-contents {
+
+        #left-column, #right-column {
+            text-align: left;
+            align-items: center;
+
+            * {
+                width: 90%;
+            }
+        }
+    }
+}
