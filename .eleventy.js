@@ -41,6 +41,6 @@ module.exports = function (eleventyConfig) {
   });
 
   eleventyConfig.addPassthroughCopy("static/media/");
-//   eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("admin");
   eleventyConfig.addPassthroughCopy("_includes/assets/");
 };
