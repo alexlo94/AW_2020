@@ -18,6 +18,9 @@ media:
   - alt: Video and iframe alt text goes unused.
     src: static/media/uploads/production-id_3752545.mp4
     type: video
+  - alt: Hong Kong
+    src: static/media/uploads/witc_hk_sm.jpg
+    type: image
 ---
 ## Description
 
