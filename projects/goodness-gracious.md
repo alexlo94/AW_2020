@@ -10,9 +10,8 @@ thumbnail:
 gallery:
   - src: /static/media/uploads/20200324-depth-2.png
     alt: map
-media:
-  - alt: teaser
-    src: /static/media/uploads/20200403_stumble_teaser.mp4
-    type: video
+  - src: /static/media/uploads/01_differentyetunbreakable_.jpg
+    alt: yin yang
+media: []
 ---
 Hello!
