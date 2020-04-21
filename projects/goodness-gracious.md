@@ -12,6 +12,9 @@ gallery:
     alt: map
   - src: /static/media/uploads/01_differentyetunbreakable_.jpg
     alt: yin yang
-media: []
+media:
+  - alt: Video and iframe alt text goes unused.
+    src: /static/media/uploads/20200403_stumble_teaser.mp4
+    type: image
 ---
 Hello!
