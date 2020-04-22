@@ -2,8 +2,8 @@
     "title": "Angela Wang | Portfolio",
     "social": [
         {
-            "href": "#",
-            "iconName": "https://www.instagram.com/zicsketch/",
+            "href": "https://www.instagram.com/zicsketch/",
+            "iconName": "logo-instagram",
             "sidebar": true
         },
         {
@@ -12,8 +12,8 @@
             "sidebar": true
         },
         {
-            "href": "#",
-            "iconName": "mailto:pmzics@gmail.com",
+            "href": "mailto:pmzics@gmail.com",
+            "iconName": "mail",
             "sidebar": true 
         }
     ]
