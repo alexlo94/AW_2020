@@ -15,6 +15,6 @@ gallery:
 media:
   - alt: Video and iframe alt text goes unused.
     src: /static/media/uploads/20200403_stumble_teaser.mp4
-    type: image
+    type: video
 ---
 Hello!
