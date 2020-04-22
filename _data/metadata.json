@@ -3,17 +3,17 @@
     "social": [
         {
             "href": "#",
-            "iconName": "logo-instagram",
+            "iconName": "https://www.instagram.com/zicsketch/",
             "sidebar": true
         },
         {
-            "href": "#",
+            "href": "https://www.linkedin.com/in/zicsole/",
             "iconName": "logo-linkedin",
             "sidebar": true
         },
         {
             "href": "#",
-            "iconName": "mail",
+            "iconName": "mailto:pmzics@gmail.com",
             "sidebar": true 
         }
     ]
