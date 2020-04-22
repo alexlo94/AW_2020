@@ -1,0 +1,44 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3891247, 2020-04-15T16:51:42-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: UniversLT-Condensed by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers/pro-condensed/
+ * Copyright:  Part of the digitally encoded machine readable outline data for producing the Typefaces provided is copyrighted (c) 1987, 1991, 1994, 1998, 2004 Linotype Library GmbH, www.linotype.com. All rights reserved. This software is the property of Linotype Libra
+ * 
+ * Webfont: UniversLTPro-LightCond by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers/pro-light-condensed/
+ * Copyright: Copyright &amp;#x00A9; 2014 Monotype GmbH. All rights reserved.
+ * 
+ * Webfont: UniversLTPro-LightCondObl by Linotype
+ * URL: https://www.myfonts.com/fonts/linotype/univers/pro-light-condensed-oblique/
+ * Copyright: Copyright &amp;#x00A9; 2014 Monotype GmbH. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3b602f");
+  
+@font-face {
+  font-family: 'UniversLTPro-LightCond';
+  src: url('webFonts/UniversLTPro-LightCond/font.woff2') format('woff2'), url('webFonts/UniversLTPro-LightCond/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'UniversLT-Condensed';
+  src: url('webFonts/UniversLT-Condensed/font.woff2') format('woff2'), url('webFonts/UniversLT-Condensed/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'UniversLTPro-LightCondObl';
+  src: url('webFonts/UniversLTPro-LightCondObl/font.woff2') format('woff2'), url('webFonts/UniversLTPro-LightCondObl/font.woff') format('woff');
+}
+

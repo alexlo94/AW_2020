@@ -1,8 +1,6 @@
 .cluster {
     --space: #{$s0};
   
-    overflow: hidden;
-  
     &.s-5 {
       --space: #{$s-5};
     }

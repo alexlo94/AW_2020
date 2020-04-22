@@ -1,24 +1,24 @@
 .navlink {
-    font-size: $s1;
+    font-size: $s2;
     font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
 
     position: relative;
 
-    &::before {
+    &:hover {
+        text-decoration: none;
+    }
+
+   &.active::before {
         content: "";
         position: absolute;
         width: 100%;
         height: 3px;
-        bottom: 0;
+        bottom: -2px;
         left: 0;
         background: $color-yellow;
-        visibility: hidden;
         border-radius: 3px;
-        transform: scaleX(0);
-        transition: .15s ease-out;
-    }
-
-    &:hover::before, &.active::before {
         visibility: visible;
         transform: scaleX(1);
     }
@@ -26,18 +26,31 @@
 
 .download-link {
     position: relative;
+    font-style: italic;
+    text-decoration: none;
 
-        &::before {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 3px;
-            bottom: 0;
-            left: 0;
-            background: $color-blue;
-            border-radius: 3px;
-            transform: scaleX(1);
-            transition: .15s ease-out;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 3px;
+        bottom: -3px;
+        left: 0;
+        visibility: hidden;
+        background: $color-blue;
+        border-radius: 3px;
+        transform: scaleX(0);
+        transition: .15s ease-out;
+    }
+
+        &:hover {
+            text-decoration: none;
+
+            &::before {
+                visibility: visible;
+                transform: scaleX(1);
+                transition: .15s ease-out;
+            }
         }
 }
 

@@ -21,17 +21,17 @@ function menuBtnHandler(event) {
 
 menuBtn.addEventListener("click", menuBtnHandler);
 
-// Sticky Navbar
-let scrollY = window.pageYOffset;
-let currScrollY;
-const navbar = document.querySelector(".navbar");
-window.addEventListener("scroll", function() {    
-    currScrollY = window.pageYOffset;
-    if(currScrollY > 300) {
-        navbar.style["boxShadow"] = "0 2px 6px #3209400F"
-    } else {
-        navbar.style["boxShadow"] = "none";
-    }
-    (scrollY > currScrollY) ? navbar.style.top = "0" : navbar.style.top = "-100%";
-    scrollY = currScrollY;
-});
+// // Sticky Navbar
+// let scrollY = window.pageYOffset;
+// let currScrollY;
+// const navbar = document.querySelector(".navbar");
+// window.addEventListener("scroll", function() {    
+//     currScrollY = window.pageYOffset;
+//     if(currScrollY > 300) {
+//         navbar.style["boxShadow"] = "0 2px 6px #3209400F"
+//     } else {
+//         navbar.style["boxShadow"] = "none";
+//     }
+//     (scrollY > currScrollY) ? navbar.style.top = "0" : navbar.style.top = "-100%";
+//     scrollY = currScrollY;
+// });

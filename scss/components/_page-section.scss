@@ -1,9 +1,14 @@
 .page-section {
     width: 100%;
-    padding: $s5 5vw;
+    padding: $s5 7vw;
+
+    &:first-child {
+      padding-top: $s3;
+    }
 
     & > .section-wrapper {
-      max-width: 1200px;
+      // max-width: 1300px;
+      width: 100%;
       margin-left: auto;
       margin-right: auto;
     }

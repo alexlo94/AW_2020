@@ -1,7 +1,7 @@
 // Color and font variables
 $font-anim: 'Allerta', sans-serif;
-$font-heading: 'Open Sans', sans-serif;
-$font-body: 'Open Sans', sans-serif;
+$font-heading: UniversLT-Condensed, sans-serif;
+$font-body: UniversLTPro-LightCond, sans-serif;
 $font-resume: 'PT Serif', serif;
 $color-blue: #B0D9CD;
 $color-black: #151515;
@@ -51,32 +51,42 @@ body {
 // Global Styles
 h1,
 .h1 {
+    font-family: $font-heading;
     font-size: $s4;
+    font-weight: normal;
 }
 
 h2,
 .h2 {
+    font-family: $font-heading;
     font-size: $s3;
+    font-weight: normal;
 }
 
 h3,
 .h3 {
+    font-family: $font-heading;
     font-size: $s2;
+    font-weight: normal;
 }
 
 h4,
 .h4 {
+    font-family: $font-heading;
     font-size: $s1;
+    font-weight: normal;
 }
 
 h5,
 .h5 {
+    font-family: $font-heading;
     font-size: $s-1;
     font-weight: normal;
 }
 
 h6,
 .h6 {
+    font-family: $font-heading;
     font-size: $s-2;
     font-weight: normal;
 }
@@ -129,6 +139,11 @@ img,
     max-width: 100%;
 }
 
-a.inline {
-    color: $color-orange;
+a {
+    font-style: italic;
+
+    &:hover {
+        text-decoration: underline;
+        text-decoration-color: $color-blue;
+    }
 }

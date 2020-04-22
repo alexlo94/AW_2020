@@ -36,7 +36,7 @@ collections:
         name: media
         widget: "list"
         fields:
-          - {label: "Source", name: "src", widget: "file"}
+          - {label: "Source", name: "src", widget: "string", default: "/static/media/uploads/"}
           - {label: "Type", name: "type", widget: "select", options: ["image", "video", "iframe"]}
           - {label: "Alt Text", name: "alt", widget: "string", default: "Video and iframe alt text goes unused."}
       - {label: "Body", name: "body", widget: "markdown"}

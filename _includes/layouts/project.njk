@@ -63,7 +63,7 @@ layout: layouts/base.njk
                     <a href="{{ prev.url }}">
                         <div class="stack">
                             <div class="frame"><img src="{{ prev.data.thumbnail.src }}" alt="{{ prev.data.thumbnail.alt }}"></div>
-                            <h5>👈 Previous Project</h5>
+                            <h4 class="font-style:normal">{% include "assets/img/left-arrow.svg" %} Previous Project</h4>
                         </div>
                     </a>
                 {% else %}
@@ -74,7 +74,7 @@ layout: layouts/base.njk
                     <a href="{{ next.url }}">
                         <div class="stack">
                             <div class="frame"><img src="{{ next.data.thumbnail.src }}" alt="{{ next.data.thumbnail.alt }}"></div>
-                        <h5 class="text-align:right"> Next Project 👉</h5>
+                        <h4 class="text-align:right font-style:normal"> Next Project    {% include "assets/img/right-arrow.svg" %}</h4>
                         </div>
                     </a>
                 {% else %}
