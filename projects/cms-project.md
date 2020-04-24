@@ -19,14 +19,4 @@ media:
     alt: Video and iframe alt text goes unused.
     type: video
 ---
-## Description
-
-This post was written entirely using the CMS. Just like in all the other posts, I can do all the usual stuff within the markdown editor.
-
-## This is an h2
-
-### This is an h3
-
-#### This is an h4
-
-Find out more about markdown syntax [here](https://www.markdownguide.org/cheat-sheet/). *Note that extended syntax is available with eleventy.*
+This is a collaboration with a experimental band Earspeak to visualize a piece of their music - Stumble.
