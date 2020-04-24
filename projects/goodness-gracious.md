@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 tags:
   - projects
-title: Goodness Gracious
+title: 3-Goodness Gracious
 subtitle: Pop Pop Pop
 thumbnail:
   src: /static/media/uploads/witc_rio_sm.jpg
