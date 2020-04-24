@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 tags:
   - projects
-title: Motion Graphic
+title: Motion Graphic -the big one
 subtitle: Multimedia Production for NYU
 thumbnail:
   src: /static/media/uploads/design-development.png
