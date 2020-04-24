@@ -15,8 +15,8 @@ gallery:
   - src: /static/media/uploads/witc_tor_sm.jpg
     alt: Toronto
 media:
-  - alt: Video and iframe alt text goes unused.
-    src: /static/media/uploads/production-id_3752545.mp4
+  - src: /static/media/uploads/20200403_stumble_teaser.mp4
+    alt: Video and iframe alt text goes unused.
     type: video
 ---
 ## Description
