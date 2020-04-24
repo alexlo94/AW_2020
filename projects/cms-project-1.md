@@ -5,7 +5,7 @@ tags:
 title: Stumble
 subtitle: An animated music video for Earspeak
 thumbnail:
-  src: /static/media/uploads/newspapers-unsplash.jpg
+  src: /static/media/uploads/20200201__hands__16.png
   alt: Newspapers on brick wall
 gallery:
   - src: /static/media/uploads/witc_rio_sm.jpg
