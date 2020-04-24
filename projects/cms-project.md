@@ -2,10 +2,10 @@
 layout: layouts/project.njk
 tags:
   - projects
-title: Stumble
-subtitle: An animated music video for Earspeak
+title: Motion Graphic -the big one
+subtitle: Multimedia Production for NYU
 thumbnail:
-  src: /static/media/uploads/20200201__hands__16.png
+  src: /static/media/uploads/design-development.png
   alt: Newspapers on brick wall
 gallery:
   - src: /static/media/uploads/witc_rio_sm.jpg
