@@ -2,8 +2,8 @@
 layout: layouts/project.njk
 tags:
   - projects
-title: Stumble-2
-subtitle: An animated music video for Earspeak
+title: motion graphic AE
+subtitle: nyu
 thumbnail:
   src: /static/media/uploads/20200201__hands__16.png
   alt: Newspapers on brick wall
