@@ -10,6 +10,10 @@ thumbnail:
 gallery:
   - src: /static/media/uploads/img_3754.jpg
     alt: storyboard for Stumble
+  - src: /static/media/uploads/20200306-pondering-head.png
+    alt: pondering head
+  - src: /static/media/uploads/20200201_unite_08.png
+    alt: perception heads
 media:
   - src: /static/media/uploads/20200403_stumble_teaser.mp4
     alt: Video and iframe alt text goes unused.
