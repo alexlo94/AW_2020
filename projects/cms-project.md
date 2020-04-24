@@ -8,12 +8,8 @@ thumbnail:
   src: /static/media/uploads/20200201__hands__16.png
   alt: "image on moving hands "
 gallery:
-  - src: /static/media/uploads/witc_rio_sm.jpg
-    alt: Rio de Janeiro
-  - src: /static/media/uploads/witc_syd_sm.jpg
-    alt: Sydney
-  - src: /static/media/uploads/witc_tor_sm.jpg
-    alt: Toronto
+  - src: /static/media/uploads/img_3754.jpg
+    alt: storyboard for Stumble
 media:
   - src: /static/media/uploads/20200403_stumble_teaser.mp4
     alt: Video and iframe alt text goes unused.
