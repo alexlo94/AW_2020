@@ -3,7 +3,7 @@ layout: layouts/project.njk
 tags:
   - projects
 title: Stumble
-subtitle: An animated music video for Earspeak
+subtitle: xxx
 thumbnail:
   src: /static/media/uploads/20200201__hands__16.png
   alt: Newspapers on brick wall
