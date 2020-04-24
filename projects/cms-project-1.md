@@ -2,10 +2,10 @@
 layout: layouts/project.njk
 tags:
   - projects
-title: Stumble-upper left
-subtitle: xxx
+title: Motion Graphic Design
+subtitle: Educational Multimedia Production for NYU
 thumbnail:
-  src: /static/media/uploads/20200201__hands__16.png
+  src: /static/media/uploads/design-development.png
   alt: Newspapers on brick wall
 gallery:
   - src: /static/media/uploads/witc_rio_sm.jpg
