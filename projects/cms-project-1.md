@@ -2,7 +2,7 @@
 layout: layouts/project.njk
 tags:
   - projects
-title: Stumble
+title: Stumble-upper left
 subtitle: xxx
 thumbnail:
   src: /static/media/uploads/20200201__hands__16.png
