@@ -6,7 +6,7 @@ title: Stumble
 subtitle: An animated music video for Earspeak
 thumbnail:
   src: /static/media/uploads/20200201__hands__16.png
-  alt: Newspapers on brick wall
+  alt: "image on moving hands "
 gallery:
   - src: /static/media/uploads/witc_rio_sm.jpg
     alt: Rio de Janeiro
@@ -22,11 +22,14 @@ media:
 ## Description
 
 This post was written entirely using the CMS. Just like in all the other posts, I can do all the usual stuff within the markdown editor.
+
 ## This is an h2
+
 ### This is an h3
+
 #### This is an h4
 
-Find out more about markdown syntax [here](https://www.markdownguide.org/cheat-sheet/). _Note that extended syntax is available with eleventy._
+Find out more about markdown syntax [here](https://www.markdownguide.org/cheat-sheet/). *Note that extended syntax is available with eleventy.*
 
 ## We can use CSS and HTML too!
 
@@ -52,17 +55,18 @@ CSS doesn't just style HTML though. Since markdown is converted into HTML, you c
     }
 </style>
 
-- Apple
-- Banana
-- Orange
-- Kiwi
+* Apple
+* Banana
+* Orange
+* Kiwi
 
 In general the classes you should be aware of (and will receive more documentation about) are the following:
-- Stack
-- Frame
-- Cluster
-- Switcher
-- Grid
-- Dense-Grid
+
+* Stack
+* Frame
+* Cluster
+* Switcher
+* Grid
+* Dense-Grid
 
 They are all adapted from [Every Layout](https://every-layout.dev/), a resource that I'll give you access to so you can do your reading on how to use these classes in your own markdown/html.
