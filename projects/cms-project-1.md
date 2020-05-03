@@ -5,7 +5,7 @@ tags:
 title: Motion Graphic Design
 subtitle: Educational Multimedia Production for NYU
 thumbnail:
-  src: /static/media/uploads/design-development.png
+  src: /static/media/uploads/untitled_artwork-6.png
   alt: Newspapers on brick wall
 gallery:
   - src: /static/media/uploads/witc_rio_sm.jpg
