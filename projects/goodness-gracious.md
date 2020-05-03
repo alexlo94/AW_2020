@@ -5,8 +5,8 @@ tags:
 title: Storyboarding
 subtitle: Pop Pop Pop
 thumbnail:
-  src: /static/media/uploads/20200324-depth-2.png
-  alt: Rio
+  src: /static/media/uploads/untitled_artwork-7.png
+  alt: pink flowers
 gallery:
   - src: /static/media/uploads/20200324-depth-2.png
     alt: map
