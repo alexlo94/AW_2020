@@ -5,7 +5,7 @@ tags:
 title: Stumble
 subtitle: An animated music video for Earspeak
 thumbnail:
-  src: /static/media/uploads/untitled_artwork-6.png
+  src: /static/media/uploads/untitled_artwork-8.png
   alt: "image on moving hands "
 gallery:
   - src: /static/media/uploads/img_3754.jpg
