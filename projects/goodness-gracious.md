@@ -3,7 +3,7 @@ layout: layouts/project.njk
 tags:
   - projects
 title: Storyboarding
-subtitle: Pop Pop Pop
+subtitle: .
 thumbnail:
   src: /static/media/uploads/button_01.png
   alt: pink flowers
