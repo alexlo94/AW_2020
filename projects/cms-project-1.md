@@ -2,8 +2,8 @@
 layout: layouts/project.njk
 tags:
   - projects
-title: Motion Graphic Design
-subtitle: Educational Multimedia Production for NYU
+title: "Multimedia Production "
+subtitle: "NYU "
 thumbnail:
   src: /static/media/uploads/button_02.png
   alt: flower thumbnail
