@@ -8,12 +8,12 @@ thumbnail:
   src: /static/media/uploads/button_02.png
   alt: flower thumbnail
 gallery:
-  - src: /static/media/uploads/witc_rio_sm.jpg
-    alt: Rio de Janeiro
-  - src: /static/media/uploads/witc_syd_sm.jpg
-    alt: Sydney
-  - src: /static/media/uploads/witc_tor_sm.jpg
-    alt: Toronto
+  - src: /static/media/uploads/abby-citation-stle-end.jpg
+    alt: instructor explaining
+  - src: /static/media/uploads/cite-with-anton-backaground.jpg
+    alt: quote from MLA style Center
+  - src: /static/media/uploads/powerpoint-08.png
+    alt: visualization of collaboration concept
 media:
   - alt: Video and iframe alt text goes unused.
     src: /static/media/uploads/production-id_3752545.mp4
