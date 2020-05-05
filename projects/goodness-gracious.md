@@ -16,6 +16,10 @@ gallery:
     alt: "two cats roaming in an underwater world "
   - src: /static/media/uploads/02_grownnnavigateii.jpg
     alt: cats standing on top a maze
+  - src: /static/media/uploads/20200324-depth-2.png
+    alt: "layers makes up of a hollow ground illusion "
+  - src: /static/media/uploads/07_tradition_.jpg
+    alt: "two human figure standing on top of the tree "
 media: []
 ---
 Hello!
