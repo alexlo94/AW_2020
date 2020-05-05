@@ -3,7 +3,7 @@ layout: layouts/project.njk
 tags:
   - projects
 title: Storyboarding
-subtitle: .nan
+subtitle: "Visualization from client's script "
 thumbnail:
   src: /static/media/uploads/button_01.png
   alt: pink flowers
@@ -22,4 +22,4 @@ gallery:
     alt: "two human figure standing on top of the tree "
 media: []
 ---
-Hello!
+Once client have a script, we disuss the fondamental requiements then go through the process of storyboarding to get everyone on the same page and start imagining.
