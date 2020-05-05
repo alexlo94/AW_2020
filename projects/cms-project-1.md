@@ -5,7 +5,7 @@ tags:
 title: Motion Graphic Design
 subtitle: Educational Multimedia Production for NYU
 thumbnail:
-  src: /static/media/uploads/thumbnail-flower-png.png
+  src: /static/media/uploads/button_02.png
   alt: flower thumbnail
 gallery:
   - src: /static/media/uploads/witc_rio_sm.jpg
