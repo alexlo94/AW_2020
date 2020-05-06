@@ -22,4 +22,4 @@ gallery:
     alt: "two human figure standing on top of the tree "
 media: []
 ---
-Once client have a script, we disuss the fondamental requiements then go through the process of storyboarding to get everyone on the same page and start imagining.
+Client provided a script, through disussion of various requiements, then the storyboarding process begin. Patrons agreed on the storyboard visualization then move on to animation development
