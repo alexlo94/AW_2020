@@ -19,4 +19,4 @@ media:
     alt: Video and iframe alt text goes unused.
     type: video
 ---
-This is a collaboration with a experimental band Earspeak to visualize a piece of their music - Stumble.
+This is a collaboration with a prioneer band named, Earspeak to visualize a piece of their music - Stumble.
