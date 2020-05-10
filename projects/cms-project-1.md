@@ -18,7 +18,7 @@ gallery:
     alt: working on site
   - src: /static/media/uploads/d_2db8mwsaazrjy.jpg
     alt: onset
-  - src: /static/media/uploads/powerpoint-09.png
+  - src: /static/media/uploads/powerpoint-09.jpg
     alt: illustration of educational concept
 media:
   - src: https://player.vimeo.com/video/416972026
