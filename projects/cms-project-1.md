@@ -16,6 +16,10 @@ gallery:
     alt: "student learning "
   - src: /static/media/uploads/fitl_media-studio_production.jpg
     alt: working on site
+  - src: /static/media/uploads/d_2db8mwsaazrjy.jpg
+    alt: onset
+  - src: /static/media/uploads/powerpoint-09.png
+    alt: illustration of educational concept
 media:
   - src: https://player.vimeo.com/video/416972026
     alt: Video and iframe alt text goes unused.
