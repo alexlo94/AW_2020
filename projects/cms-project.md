@@ -18,6 +18,8 @@ gallery:
     alt: simple drawing of heads
   - src: /static/media/uploads/blackhole.png
     alt: "a black hole "
+  - src: /static/media/uploads/earspeak.png
+    alt: artists illustration
 media:
   - src: /static/media/uploads/Earspeak intro.mp4
     alt: intro logo design
