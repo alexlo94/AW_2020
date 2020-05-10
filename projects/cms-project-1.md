@@ -8,7 +8,7 @@ thumbnail:
   src: /static/media/uploads/button_02.png
   alt: flower thumbnail
 gallery:
-  - src: /static/media/uploads/powerpoint-08.png
+  - src: /static/media/uploads/powerpoint-08.jpg
     alt: visualization of collaboration concept
   - src: /static/media/uploads/fitl_media.png
     alt: microphone
