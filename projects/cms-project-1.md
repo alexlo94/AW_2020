@@ -14,7 +14,12 @@ gallery:
     alt: quote from MLA style Center
   - src: /static/media/uploads/powerpoint-08.png
     alt: visualization of collaboration concept
-media: []
+media:
+  - src: /static/media/uploads/<iframe
+      src="https://player.vimeo.com/video/416972026" width="640" height="480"
+      frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+    alt: short reel
+    type: iframe
 ---
 ## Description
 
