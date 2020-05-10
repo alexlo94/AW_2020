@@ -22,4 +22,6 @@ gallery:
     alt: "two human figure standing on top of the tree "
 media: []
 ---
-Client provided a script, through disussion of various requiements, then the storyboarding process begin. Patrons agreed on the storyboard visualization then move on to animation development
+This is a long term documentary project, the client wanted to experiment and be less literal with the ending. My role is to make a piece that supports the voiceover that’s reading the letter in the end.
+
+The process begins with understanding the large scope of the documentary story and research on different ways to complete the client request. Through research, I came up with possible metaphones to tell the story, through discussion the final visual solution is to live up to the story, provide room for imagination, and at the same time will not drift away from the voiceover. The proposal ended up with 2D storyboard keyframes and currently ongoing  developing.
