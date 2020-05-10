@@ -20,10 +20,7 @@ gallery:
     alt: onset
   - src: /static/media/uploads/powerpoint-09.jpg
     alt: illustration of educational concept
-media:
-  - src: https://player.vimeo.com/video/416972026
-    alt: Video and iframe alt text goes unused.
-    type: iframe
+media: []
 ---
 ## Description
 
@@ -34,3 +31,5 @@ The MLA project comes from EWP writing center. The faculties found themself teac
 My role in the project is Media Producer working with project manager, and educational technologist to go through consultation with collaborators, evaluate existing content, outlining a script, analyze achievement of learning goals and video effectiveness development.
 
 Once the goal is articulated, then I capture footage based on the discussed shot list, I assemble footage, develop rough, then finer cuts based on collaborator feedback, incorporating any effects or media within time constraints. Deliver the product to clients for further, evaluate video’s success based on response and outcomes, plan for improvements.
+
+<iframe src="https://player.vimeo.com/video/416972026" width="640" height="564" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
