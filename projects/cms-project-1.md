@@ -15,9 +15,11 @@ gallery:
   - src: /static/media/uploads/powerpoint-08.png
     alt: visualization of collaboration concept
 media:
-   - src: https://player.vimeo.com/video/416972026
+   - src: <iframe src="https://player.vimeo.com/video/416972026" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     alt: Video and iframe alt text goes unused.
     type: iframe
+    
+    <iframe src="https://player.vimeo.com/video/416972026" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
     
 ---
 ## Description
