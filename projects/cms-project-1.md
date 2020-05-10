@@ -8,18 +8,18 @@ thumbnail:
   src: /static/media/uploads/button_02.png
   alt: flower thumbnail
 gallery:
-  - src: /static/media/uploads/design-development.png
-    alt: "an image indicates make text move "
-  - src: /static/media/uploads/cite-with-anton-backaground.jpg
-    alt: quote from MLA style Center
   - src: /static/media/uploads/powerpoint-08.png
     alt: visualization of collaboration concept
+  - src: /static/media/uploads/fitl_media.png
+    alt: microphone
+  - src: /static/media/uploads/fitl_lms.jpg
+    alt: "student learning "
+  - src: /static/media/uploads/fitl_media-studio_production.jpg
+    alt: working on site
 media:
-   - src: <iframe src="https://player.vimeo.com/video/416972026" width="640" height="360" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+  - src: https://player.vimeo.com/video/416972026
     alt: Video and iframe alt text goes unused.
     type: iframe
-  
-    
 ---
 ## Description
 
