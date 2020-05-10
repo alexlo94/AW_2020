@@ -3,7 +3,7 @@ layout: layouts/project.njk
 tags:
   - projects
 title: Storyboarding
-subtitle: "Visualization from client's script "
+subtitle: "Visualization from text script "
 thumbnail:
   src: /static/media/uploads/button_01.png
   alt: pink flowers
