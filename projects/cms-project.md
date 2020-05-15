@@ -27,7 +27,7 @@ media:
 ---
 This is a collaboration with a pioneer band named, Earspeak to visualize a piece of their music - Stumble.
 
-During the pandemic, many artists’ gigs were suddenly canceled or postponed until further notice. Many, including artists were affected by the situation and lost their main source of income.
+During the pandemic, freelancers gigs were suddenly canceled or postponed until further notice. Many, including artists were affected by the situation and lost their main source of income.
 
 A musical project conceived many years ago between John Hadfield (music, percussion, and synths) and Boris Skalsky (music, vocals, and keys) has a chance to be polished and released. Stumble is one of the songs created by Earspeak.
 
